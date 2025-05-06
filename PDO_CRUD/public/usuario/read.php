@@ -8,6 +8,9 @@
     // echo var_dump($usuarios);    
 ?>
     <?php foreach ($usuarios as $indice => $user) { ?>
-       <h1><?php echo $user['username']; ?></h1> 
+        <p>
+            <strong>Nome da Heroina:</strong><?php echo $user['username']; ?>
+        </p>
+        <hr>
     <?php } ?>
     
