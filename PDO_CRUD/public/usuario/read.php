@@ -10,6 +10,8 @@
     <?php foreach ($usuarios as $indice => $user) { ?>
         <p>
             <strong>Nome da Heroina:</strong><?php echo $user['username']; ?>
+            <a href="">Remover</a>
+            <a href="">Editar</a>
         </p>
         <hr>
     <?php } ?>
