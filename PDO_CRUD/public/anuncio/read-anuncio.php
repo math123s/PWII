@@ -1,7 +1,7 @@
 <?php 
     include'../../config/connection.php';
 
-    $stmt = $pdo->query('SELECT * FROM usuario');
+    $stmt = $pdo->query('SELECT * FROM nome_proprietario');
     $usuarios = $stmt->fetchAll();
     
     if( isset($_GET['id']) ) {

@@ -43,3 +43,4 @@ $stmt->bindParam(':username', $username);
 $stmt->bindParam(':password', $password);
 $stmt->execute();
 ?>
+
