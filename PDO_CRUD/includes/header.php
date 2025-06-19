@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,25 @@
 </head>
 <body>
 <div class="telared">
-<div class="titulo"> <h1>Nome da conce</h1></div>
+<div class="titulo"><h1>Penteados motors</h1></div>
+
+<div class="campo_contorno">
+<div class="campo"><div class="caixa_pesquisa"></div></div>
 </div>
+</div>
+
+<style>
+.telared{
+    background-color: red;
+    width: 100%;
+}
+
+.titulo.h1{    
+color: white;
+padding: 5px;
+}
+
+
+</style>
 </body>
 </html>
