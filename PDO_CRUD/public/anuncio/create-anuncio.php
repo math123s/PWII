@@ -1,4 +1,6 @@
 <?php
+   include'../../Incluides/header.php'; 
+   include'../../Incluides/body.php'; 
    include'../../config/connection.php'; 
 
 
@@ -42,5 +44,8 @@ $stmt = $pdo->prepare('INSERT INTO usuario (username, password) VALUES (:usernam
 $stmt->bindParam(':username', $username);
 $stmt->bindParam(':password', $password);
 $stmt->execute();
+
+header("Location: read-anuncio.php")
 ?>
 
+<?php  include '../../incluides/footer.php?>

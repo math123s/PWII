@@ -23,7 +23,7 @@
 
 
 <div class="nome_moto">
- <h2></h2>
+ <h2>Kawasaki Ninja 1300 2024</h2>
 </div>
 
 

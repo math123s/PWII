@@ -8,11 +8,13 @@
 </head>
 <body>
 <div class="telared">
-<div class="titulo"><h1>Penteados motors</h1></div>
+
+<div class="titulo"><h1>Nome da Concessionaria</h1></div>
 
 <div class="campo_contorno">
-<div class="campo"><div class="caixa_pesquisa"></div></div>
+<div class="campo"><button>Pesquisa</button></div>
 </div>
+
 </div>
 
 <style>
